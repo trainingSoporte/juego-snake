@@ -1,0 +1,21 @@
+
+@mixin snake{
+
+    &--head{
+        @extend .snake;
+        background-color: goldenrod;
+    }
+
+    &--body{
+        @extend .snake;
+        background-color: grey;
+    }
+}
+
+@mixin reward{
+
+    &--food{
+        @extend .reward;
+        background-color: red;
+    }
+}

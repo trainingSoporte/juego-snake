@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header {
+  background-color: blanchedalmond;
+}
+
+main {
+  background-color: blueviolet;
+}
+main .container {
+  display: flex;
+}
+main .container .squares {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}
+main .container .squares:nth-child(odd) {
+  background-color: greenyellow;
+}
+main .container .squares:nth-child(even) {
+  background-color: green;
+}
+main .container .squares.snake--head {
+  background-color: goldenrod;
+}
+main .container .squares.snake--body {
+  background-color: grey;
+}
+main .container .squares.reward--food {
+  background-color: red;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,40 @@
+@use 'styles/parameters.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+header{
+    background-color: blanchedalmond;
+}
+
+main{
+    background-color: blueviolet;
+    .container{
+        display: flex;
+        // gap: 5px;
+        .squares{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            &:nth-child(odd){
+                background-color: greenyellow;
+            }
+            &:nth-child(even){
+                background-color: green;
+            }
+            &.snake{
+                @include parameters.snake;                
+            }
+            &.reward{
+                @include parameters.reward;
+            }
+
+        }
+    }
+}
