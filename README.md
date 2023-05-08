@@ -51,13 +51,13 @@ _3 Abre una linea de comandos (GIT Bash - Recomendado!) Ir al directorio creado 
 _4 Ejecuta el siguiente comando:_
 
 ```
-git clone 
+git clone https://github.com/trainingSoporte/juego-snake.git
 ```
 Luego, usando comandos en Git Bash:
 
 ```
 ls
-cd 
+cd juego-snake
 ```
 
 puedes abrir en Visual Studio Code:
