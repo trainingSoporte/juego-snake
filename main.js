@@ -15,9 +15,6 @@ console.log(squares);
 console.log(board);
 // console.log(squares.item(0));
 // console.log(squares[0]);
-
-
-
 // squares[index].classList.toggle('snake--body');
 // squares[index + 1].classList.toggle('snake--head');    
 
@@ -25,11 +22,6 @@ index=0;
 squares[index].classList.add('snake--body');//posicion 0
 squares[++index].classList.add('snake--head'); //posicion 1
 
-// if (!container.children[snake[index]].classList.contains('headSnake'))
-// container.children[snake[index]].classList.toggle('headSnake');//activa
-
-// if (container.children[snake[index]].classList.contains('headSnake'))
-// container.children[snake[index]].classList.toggle('headSnake');//desactiva
 
 body.addEventListener('keyup',(e)=>{
     console.log('keyup');
