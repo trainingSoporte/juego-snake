@@ -1,2 +1,6 @@
 # ignora la carpeta para generacion del encuentro de training
 img
+
+# ignorar modulos de node
+node_modules
+

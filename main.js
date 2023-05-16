@@ -9,6 +9,12 @@ const body = document.getElementsByTagName('body')[0];
 const squares = document.getElementsByClassName('squares');
 const board = document.getElementById('board');
 
+//*Snake
+
+const snake = [];
+
+snake[0] = 2;//snake--head
+snake[1] = ;//snake--body
 
 console.log(body);
 console.log(squares);
