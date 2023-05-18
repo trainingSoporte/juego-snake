@@ -4,5 +4,4 @@ img
 # ignora node
 node_modules
 
-# ignora configuracion de visual studio
-.vscode
+
