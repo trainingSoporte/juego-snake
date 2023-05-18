@@ -1,2 +1,8 @@
 # ignora la carpeta para generacion del encuentro de training
 img
+
+# ignora node
+node_modules
+
+# ignora configuracion de visual studio
+.vscode
