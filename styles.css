@@ -15,12 +15,13 @@ main {
   background-color: blueviolet;
 }
 main .container {
-  display: flex;
+  display: grid;
+  grid-template: repeat(15, 30px)/repeat(17, 30px);
+  justify-content: center;
 }
 main .container .squares {
-  width: 100px;
-  height: 100px;
   background-color: brown;
+  color: cadetblue;
 }
 main .container .squares:nth-child(odd) {
   background-color: greenyellow;

@@ -16,12 +16,15 @@ header{
 main{
     background-color: blueviolet;
     .container{
-        display: flex;
+        display: grid;
+        grid-template: repeat(15,30px)/repeat(17,30px);
+        justify-content: center;
         // gap: 5px;
         .squares{
-            width: 100px;
-            height: 100px;
+            // width: 100px;
+            // height: 100px;
             background-color: brown;
+            color: cadetblue;
             &:nth-child(odd){
                 background-color: greenyellow;
             }
