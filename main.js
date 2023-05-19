@@ -19,32 +19,24 @@ const config = {
 let square;
 
 for (let index = 1; index <= (config.rows * config.columns); index++) {
-    console.log(index);
+    // console.log(index);
     square = document.createElement('div');
     square.classList.add('squares');
     square.textContent = index;
     board.append(square);
-
 }
-
-
-
-
 
 //*Snake
 
 const snake = [];
 
-snake[0] = 2;//snake--head
-snake[1] = 1;//snake--body
+snake[0] = 1;//snake--head
+snake[1] = 0;//snake--body
 
 console.log(body);
 console.log(squares);
 console.log(board);
-// console.log(squares.item(0));
-// console.log(squares[0]);
-// squares[index].classList.toggle('snake--body');
-// squares[index + 1].classList.toggle('snake--head');    
+
 
 let index = 0;
 let step;
@@ -53,7 +45,7 @@ let oldEvent;
 squares[snake[1]].classList.add('snake--body');
 squares[snake[0]].classList.add('snake--head');
 
-
+//* Snake Move
 body.addEventListener('keyup', (e) => {
     console.log('keyup');
     console.log(e.key);
@@ -93,10 +85,6 @@ body.addEventListener('keyup', (e) => {
         squares[snake[1]].classList.add('snake--body');
         squares[snake[0]].classList.add('snake--head');
     }
-
-
-
-
 
 })
 
